@@ -1,5 +1,6 @@
 *{
     background-color: lightgray;
+    box-sizing:border-box;
 }
 .circles{
     display: flex;
@@ -14,4 +15,16 @@
     border: 3px solid white
 
 
+}
+.col-xl-4 .smallerPhotos{
+    height:90px;
+    width:90px;
+
+}
+/*.col-xl-4 p {*/
+/*    display:flex;*/
+/*    flex-direction: row;*/
+/*}*/
+.col-xl-4 .words{
+    float:right;
 }
