@@ -1,3 +1,17 @@
 *{
-    background-color: peru;
+    background-color: lightgray;
+}
+.circles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /*align-content: space-between;*/
+
+}
+#circle, #circle2, #circle3, #circle4{
+    margin: 10px;
+    border: 3px solid white
+
+
 }
