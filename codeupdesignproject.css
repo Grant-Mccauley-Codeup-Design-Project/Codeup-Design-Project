@@ -1,6 +1,32 @@
-*{
+body{
     background-color: lightgray;
-    box-sizing:border-box;
+    /*box-sizing:border-box;*/
+
+}
+
+.pop{
+    width: 105px;
+    height: 105px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 60px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circle {
+    background: #E6563b;
+}
+#circle2 {
+    background: #EB9D3A;
+}
+#circle3 {
+    background: #7CB06C;
+}
+#circle4 {
+    background: #00ABA9;
 }
 .circles{
     display: flex;
@@ -16,7 +42,13 @@
 
 
 }
-.col-xl-4 .smallerPhotos{
+.pageline{
+    border: 1px solid gray;
+
+
+}
+.smallerPhotos{
+    display: flex;
     height:90px;
     width:90px;
 
@@ -25,6 +57,37 @@
 /*    display:flex;*/
 /*    flex-direction: row;*/
 /*}*/
-.col-xl-4 .words{
-    float:right;
+.words{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px
+}
+
+h1,h3{
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    font-size: 56px;
+}
+.lasttweet{
+    text-align: left;
+}
+.featured{
+    text-align: left;
+    position: static;
+}
+/*this media query below is for the small screen only*/
+@media screen and (max-width:575px){
+    .col-xl-4{
+        display:none;
+    }
+}
+
+/*this media query is for small and medium screens takes away the right side of the screen*/
+@media screen and (min-width: 575px) and (max-width: 1170px){
+    .col-xl-4{
+        display:none;
+    }
 }
