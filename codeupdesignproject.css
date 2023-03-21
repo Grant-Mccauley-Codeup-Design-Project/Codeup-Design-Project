@@ -16,6 +16,19 @@ body{
     justify-content: center;
     align-items: center;
 }
+.pop2{
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: black;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #circle {
     background: #E6563b;
 }
@@ -28,6 +41,18 @@ body{
 #circle4 {
     background: #00ABA9;
 }
+#smallerCircle {
+    background: #E6563b;
+}
+#smallerCircle2 {
+    background: #EB9D3A;
+}
+#smallerCircle3 {
+    background: #7CB06C;
+}
+#smallerCircle4 {
+    background: #00ABA9;
+}
 .circles{
     display: flex;
     flex-direction: row;
@@ -36,9 +61,15 @@ body{
     /*align-content: space-between;*/
 
 }
+.smallerCircles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float:right;
+}
 #circle, #circle2, #circle3, #circle4{
     margin: 10px;
-    border: 3px solid white
+    border: 6px solid white
 
 
 }
@@ -87,10 +118,16 @@ h1{
 
 /*this media query is for small and medium screens takes away the right side of the screen*/
 @media screen and (min-width: 575px) and (max-width: 1170px){
+
     .col-xl-4{
         display:none;
     }
+    .col-xl-3{
+        display:none;
+    }
 }
+
+
 
 .words{
 
