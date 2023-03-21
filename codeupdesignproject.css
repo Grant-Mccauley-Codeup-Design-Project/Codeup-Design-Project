@@ -114,6 +114,7 @@ h1{
     .col-xl-4{
         display:none;
     }
+
 }
 
 /*this media query is for small and medium screens takes away the right side of the screen*/
@@ -124,6 +125,9 @@ h1{
     }
     .col-xl-3{
         display:none;
+    }
+    .circles{
+        display-flex:wrap;
     }
 }
 
